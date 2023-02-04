@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.style-from{
+    width:275px;
+    height:197px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px
+    
+}
+.ghj{
+    width:275px;
+    height:154px;
+    border-radius: 20px;
+}
+.drippy{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.style-from button{
+    width:40px;
+    height:20px;
+    background-color:rgb(128, 147, 243) ;
+    border:none;
+    position:relative;
+    font-size: 10px;
+    border-radius: 14px;
+}
+.style-from button p{
+    color:rgb(255, 255, 255);
+    position: absolute;
+}
+.dripp{
+    width:100%;
+    height:100vh;
+    background-color: rgb(250, 250, 250);
+}
+.skip-title{
+    display: flex;
+    justify-content: left;
+    font-size: 10px;
+}
+.skip-title button{
+    width: 50px;
+    height:20px;
+    
+}
+.pext{
+    color:rgb(0, 0, 0);
+    font-size: 10px;
+    display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-button{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
 }
+.input-button input:first-child{
+    background-color: rgb(128, 127, 127);
+    border-radius: 10px;
+    
+    border:0.1px solid white;
+    width:350px;
+    height:30px;
+    color:silver;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight:300;
+    font-size:12px
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.utga{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: none;
+    border:0.1px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    width:300px;
+    height:30px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight:600;
+    font-size:13.5px;
+    
 
-.App-link {
-  color: #61dafb;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-button button{
+    background-color: rgb(255, 253, 253);
+    border-radius: 7px;
+    border: none;
+    border:1px solid rgb(0, 0, 0);
+    color:rgb(6, 6, 6);
+    width:60px;
+    height:30px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight:400;
+    font-size:15px
 }
